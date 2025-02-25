@@ -6,7 +6,6 @@
     <style>
         table {
             border-collapse: collapse;
-            margin: 20px;
         }
         td {
             border: 2px solid;
@@ -14,8 +13,6 @@
             background-color: lightblue;
             padding: 10px;
             text-align: center;
-            width: 30px;
-            height: 30px;
         }
     </style>
 </head>
