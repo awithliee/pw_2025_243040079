@@ -1,5 +1,6 @@
 <?php
-function hitungLuasLingkaran($r) {
+function hitungLuasLingkaran($r)
+{
     $luas = pi() * pow($r, 2);
     echo "<h4>Menghitung Luas Lingkaran</h4>";
     echo "Jari-jari = $r cm.<br>";
@@ -7,7 +8,8 @@ function hitungLuasLingkaran($r) {
     echo "<hr>";
 }
 
-function hitungKelilingLingkaran($r) {
+function hitungKelilingLingkaran($r)
+{
     $keliling = 2 * pi() * $r;
     echo "<h4>Menghitung Keliling Lingkaran</h4>";
     echo "Jari-jari = $r cm.<br>";
@@ -15,6 +17,5 @@ function hitungKelilingLingkaran($r) {
     echo "<hr>";
 }
 
-    hitungLuasLingkaran(20);
-    hitungKelilingLingkaran(50);
-?>
+hitungLuasLingkaran(20);
+hitungKelilingLingkaran(50);
