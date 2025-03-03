@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
-    <title>Tugas 1c</title>
+    <title>Tugas 2c</title>
     <style>
         table {
             border-collapse: collapse;
         }
+
         td {
             border: 2px solid;
             border-color: black;
@@ -16,21 +18,23 @@
         }
     </style>
 </head>
+
 <body>
 
 
-<table>
-    <?php
-    $jumlahBaris = 10; // Jumlah baris
-    for ($i = 1; $i <= $jumlahBaris; $i++) {
-        echo "<tr>";
-        for ($j = 1; $j <= $jumlahBaris - $i + 1; $j++) {
-            echo "<td>" . $j . "</td>";
+    <table>
+        <?php
+        $jumlahBaris = 10; // Jumlah baris
+        for ($i = 1; $i <= $jumlahBaris; $i++) {
+            echo "<tr>";
+            for ($j = 1; $j <= $jumlahBaris - $i + 1; $j++) {
+                echo "<td>" . $j . "</td>";
+            }
+            echo "</tr>";
         }
-        echo "</tr>";
-    }
-    ?>
-</table>
+        ?>
+    </table>
 
 </body>
+
 </html>
