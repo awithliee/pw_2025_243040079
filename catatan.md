@@ -73,3 +73,9 @@ switch (ekspresi) {
         // aksi jika tidak ada kasus yang cocok
 }
 ```
+<!-- pertemuan 6 -->
+kenapa array ? array adalah wadah untuk membuat pengerjaan lebih mudah bagi mesin untuk mencari objek yang di inginkan, problem array itu jika di ambil lagi bisa beda saat di ambil lagi,maka array yang bagus yaitu membuat patokan 
+
+Array  
+- variabel jamak yang  mempinyai banyak elemen dengan nama yang sama 
+-kumoulan pasangan key dan nilai /key and value pair
