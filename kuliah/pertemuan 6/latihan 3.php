@@ -1,6 +1,5 @@
 <?php
-$mahasiwa = ['ali', '243040079', 'ali@gmail.com', 'teknik informatika'];
-$mahasiwa = ['fauzi', '243040080', 'fauzi@gmail.com', 'teknik informatika'];
+// array bersarang
 
 $mahasiwa = [
     ['ali', '243040079', 'ali@gmail.com', 'teknik informatika'],
